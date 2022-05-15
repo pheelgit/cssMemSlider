@@ -1,5 +1,5 @@
 :root{
-  --color-controls-main: rgb(103, 140, 199);
+  --color-controls-main: #8EC5FC;
 }
 
 *{
@@ -27,14 +27,20 @@ padding-top: 5rem;
   width: 40rem;
   padding: 1rem 1rem;
   border-radius: 1rem;
+
+  
   display: grid;
   grid-template-areas: 
-        "i i"
-        "t c";
+  "i i"
+  "t c";
   grid-template-columns: 70% 30%;
   grid-template-rows: 25rem 2rem;
-  background-image: linear-gradient(to top, #cfd9df66 0%, #e2ebf094 100%);
   row-gap: 1rem;
+  background: rgba(176, 235, 236, 0.2);
+  background-image: linear-gradient(50deg, #8EC5FC 20%, #E0C3FC 50%);
+  
+  box-shadow: 1rem 1rem 10rem rgba(68, 44, 86, 0.4);
+  backdrop-filter: blur(0.1rem);
 }
 
 input{
